@@ -2,7 +2,7 @@ import React from "react";
 import Loader from "../components/Loader";
 import { useState } from "react";
 import { useEffect } from "react";
-import ButtonCustom from "../components/Buttoncustom";
+// import ButtonCustom from "../components/ButtonCustom.jsx";
 
 const AboutMe = () => {
   const [loading, setLoading] = useState(true);

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import AboutMe from "./AboutMe";
-import Skill from "./Skill";
-import Contactus from "./Contactus";
-import HeroSection from "../components/HeroSection";
-import Discription from "./Discription";
-import Portfolio from "./Portfolio";
-import Loader from "../components/Loader";
+import AboutMe from "./AboutMe.jsx";
+import Skill from "./Skill.jsx";
+import Contactus from "./Contactus.jsx";
+import HeroSection from "../components/HeroSection.jsx";
+import Discription from "./Discription.jsx";
+import Portfolio from "./Portfolio.jsx";
+import Loader from "../components/Loader.jsx";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
